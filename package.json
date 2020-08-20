@@ -1,0 +1,24 @@
+{
+  "name": "preco_ativos_bot",
+  "version": "1.0.0",
+  "description": "Bot do Telegram para informar o preço de ativos do mercado financeiro.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusRossmann/preco_ativos_bot.git"
+  },
+  "author": "Vinicius Rossmann Nunes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusRossmann/preco_ativos_bot/issues"
+  },
+  "homepage": "https://github.com/ViniciusRossmann/preco_ativos_bot#readme",
+  "dependencies": {
+    "alphavantage": "^2.1.0",
+    "http.request": "^1.1.0",
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
