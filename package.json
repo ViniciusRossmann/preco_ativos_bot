@@ -18,6 +18,7 @@
   "homepage": "https://github.com/ViniciusRossmann/preco_ativos_bot#readme",
   "dependencies": {
     "alphavantage": "^2.1.0",
+    "dotenv": "^8.2.0",
     "http.request": "^1.1.0",
     "node-telegram-bot-api": "^0.50.0"
   }

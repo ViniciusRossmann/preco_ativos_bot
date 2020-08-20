@@ -1,11 +1,11 @@
+require('dotenv/config');
+
 //Alphavantage
-const token_alpha = 'VMWGOQOWENOAQK3N';
-const alpha = require('alphavantage')({ key: token_alpha });
+const alpha = require('alphavantage')({ key: process.env.CHAVE_ALPHA });
 
 //Telegram 
 const TelegramBot = require('node-telegram-bot-api');
-const token_telegram = '1347432657:AAH2YXkxZx76_qwRwuF31Xj80M_W02fH13Q'; //token do Telegram
-const bot = new TelegramBot(token_telegram, {polling: true});
+const bot = new TelegramBot(process.env.CHAVE_TELEGRAM, {polling: true});
 
 //Mensagem inicial do bot
 var helpmsg = "Bem vindo!\nPara consultar o preço de um ativo mande 'preco nome-do-ativo'\nExemplo: preco btc ou preco petr4";
